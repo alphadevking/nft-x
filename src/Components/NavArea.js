@@ -11,19 +11,6 @@ import Stack from 'react-bootstrap/Stack';
 function NavArea() {
 
   const changeTheme = () => {
-
-    this.state = ({
-      theme: alert('hello')
-      }
-    )
-
-    this.setState = {
-      theme: alert('hey')
-    }
-  }
-
-  const themeHover = () =>{
-    this.setState = this
   }
 
   return (
