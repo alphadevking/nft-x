@@ -15,7 +15,7 @@ function NavArea() {
 
   return (
     <>
-      <Navbar variant="dark" className='position-fixed w-100 fixed-top' style={{backgroundColor: 'black'}}>
+      <Navbar variant="" className='bg-real-dark position-fixed w-100 fixed-top'>
 
         <Container fluid>
 
@@ -28,7 +28,7 @@ function NavArea() {
               height="60"
               className="d-inline-block rounded-5"
             />{' '}
-            <row style={{fontWeight: `bold`}}>NFT Apocalypse</row>
+            <row className='text-white' style={{fontWeight: `bold`}}>NFT Apocalypse</row>
           </Navbar.Brand>
 
           <Navbar.Brand className=''>

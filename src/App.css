@@ -6,7 +6,16 @@
   background-color: black;
 }
 
+.btn-normal{
+  transition: all .3s;
+  background-color: #a5c6ee;
+  color: #1f2937;
+}
 
+.btn-normal:hover{
+  transition: all .3s;
+  background-color: #c6defd;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
