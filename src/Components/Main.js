@@ -5,13 +5,14 @@ import Card from 'react-bootstrap/Card';
 import BackgroundParallax from '../Images/nftx-cover.png'
 import Container from 'react-bootstrap/esm/Container';
 import Intro from './Intro';
+import NFTxUtility from './NFTxUtility';
 
 function Main() {
   return (
     <div className=''>
         <Stack gap={3}>
             
-            <Stack className='bg-real-dark text-white mb-3'>
+            <Stack className='bg-real-dark text-white'>
                 <Container >
                     <Card className="border-0 rounded-0 container" style={{backgroundColor: `black`}}>
                         <Card.Img src={BackgroundParallax} alt="Card image" style={{maxWidth: `200px`}}/>
@@ -25,8 +26,11 @@ function Main() {
         </Stack>
 
         <Stack>
-            <Container >
-                <Intro />
+            <Container className='mt-4'>
+            <Intro />
+            </Container>
+            <Container className='mt-4'>
+            <NFTxUtility/>
             </Container>
         </Stack>
     </div>
