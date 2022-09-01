@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../Images/nftx-apocalypse.png'
@@ -10,45 +11,47 @@ import Stack from 'react-bootstrap/Stack';
 function NavArea() {
 
   const changeTheme = () => {
-    // let theToggle = document.getElementById("change-color");
-    // theToggle.toggleStatus = "on";
-    // switch (theToggle.toggleStatus) {
-    //   case "on":
-    //     theToggle.toggleStatus = "off";
-    //     theToggle.style.color = "purple";
-    //     theToggle.style.backgroundColor = "yellow";
-    //     break;
-    //   case "off":
-    //     theToggle.toggleStatus = "on";
-    //     theToggle.style.color = "yellow";
-    //     theToggle.style.backgroundColor = "purple";
-    //     break;
-    // }
 
-    this.state = {
+    this.state = ({
       theme: alert('hello')
-    }
+      }
+    )
 
+    this.setState = {
+      theme: alert('hey')
+    }
   }
+
+  const themeHover = () =>{
+    this.setState = this
+  }
+
   return (
     <>
-      <Navbar bg="dark" variant="dark" className='position-fixed w-100 top'>
+      <Navbar variant="dark" className='position-fixed w-100 fixed-top' style={{backgroundColor: 'black'}}>
+
         <Container fluid>
+
           <Navbar.Brand href="#home"
           className="">
             <img
               alt=""
               src={Logo}
-              width="50"
-              height="50"
+              width="60"
+              height="60"
               className="d-inline-block rounded-5"
             />{' '}
-            NFT Apocalypse
+            <row style={{fontWeight: `bold`}}>NFT Apocalypse</row>
           </Navbar.Brand>
-          <Navbar.Brand>
-          <Button variant="outline-light" id='change-theme' onClick={() =>changeTheme()}><BsFillBrightnessHighFill /></Button>{''}
+
+          <Navbar.Brand className=''>
+
+            <button className='text-warning bg-real-dark rounded-5 border-0 mt-1'><BsFillBrightnessHighFill className='mb-1' style={{fontSize: `27px`}}/></button>
+
           </Navbar.Brand>
+
         </Container>
+        
       </Navbar>
     </>
   );

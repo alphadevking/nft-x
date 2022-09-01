@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.bg-real-dark{
+  background-color: black;
+}
+
+#hero-image{
+  width: 25%;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
