@@ -8,6 +8,10 @@ import Intro from './Intro';
 import NFTxUtility from './NFTxUtility';
 import Tokenomics from './Tokenomics';
 import SmartContractAddress from './SmartContractAddress';
+import Airdrop from './Airdrop';
+import Listing from './Listing';
+import BuySell from './BuySell';
+import Upcoming from './Upcoming';
 
 function Main() {
   return (
@@ -33,7 +37,12 @@ function Main() {
             <NFTxUtility />
             <Tokenomics />
             <SmartContractAddress />
+            <Airdrop />
+            <Listing />
+            <BuySell />
+            <Upcoming />
         </Stack>
+
     </div>
   )
 }

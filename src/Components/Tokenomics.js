@@ -17,15 +17,15 @@ function Tokenomics() {
                 <div>
                     <ul>
 
-                        <li>Max. Total Supply - 10,000,000,000,000 NFTx</li>
+                        <li className='p-2'>Max. Total Supply - 10,000,000,000,000 NFTx</li>
 
-                        <li>Genesis Mint: 1,200,000,000,000 NFTx</li>
+                        <li className='p-2'>Genesis Mint: 1,200,000,000,000 NFTx</li>
 
-                        <li>LP Farming: 1,000,000,000,000 NFTx</li>
+                        <li className='p-2'>LP Farming: 1,000,000,000,000 NFTx</li>
 
-                        <li>Airdrop: 14,000,000,000 NFTx</li>
+                        <li className='p-2'>Airdrop: 14,000,000,000 NFTx</li>
 
-                        <li>Distribution via LP Mining and Staking</li>
+                        <li className='p-2'>Distribution via LP Mining and Staking</li>
 
                     </ul>
                 </div>
